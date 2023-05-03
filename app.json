@@ -1,12 +1,13 @@
 {
   "expo": {
-    "name": "doApp",
-    "slug": "doApp",
-    "version": "1.0.0",
+    "name": "lightandlovetribe",
+    "owner": "lightandlovetribe",
+    "slug": "doApp-432Hz",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/mindset-splash-1920-1080.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,16 +18,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.markcash11.Solfeggiomusicplayer"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.markcash11.Solfeggiomusicplayer",
+      "versionCode": 3
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "487b08ab-4d87-451f-82f1-5dcf7741343a"
+      }
     }
   }
 }
